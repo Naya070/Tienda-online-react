@@ -1,0 +1,42 @@
+Para iniciar proyecto desde cero método 1: 
+1.Crear una carpeta.
+2.Abrir con VSCode
+3.git init
+4.npm init
+5.npm install react react-dom
+6.Crear carpeta src en donde estará el código
+a src se le debe colocar un index.js
+7.Crear carpeta public donde estarán elementos o archivos 
+públicos para nuestro proyecto, como imágenes, iconos, etc.
+a public se le debe colocar un archivo index.html
+8.Dentro de src crear una carpeta components que contendrá
+un archivo App.jsx
+
+Para iniciar proyecto desde cero método 2:
+1.Crear una carpeta.
+2.Abrir con VSCode
+3.git init
+4.npx create-react-app
+5.npm start
+Se deben haber creado todas las carpetas hechas en el método 1
+
+Recursos adicionales:
+npm install @babel/core @babel/preset-env @babel/preset-react
+@babel/core es para instalar la configuración de babel
+@babel/preset-env para tener todas las bondades de 
+javaScript moderno en este proyecto
+@babel/preset-react para que la sintaxis y otros elementos 
+sean reconocidos dentro de este proyecto
+
+npm install webpack webpack-cli webpack-dev-server
+webpack 
+webpack-cli para ejecutar comandos desde la consola
+webpack-dev-server para habilitar el modo de 
+desarrollo de forma local
+
+npm install babel-loader html-loader html-webpack-plugin
+babel-loader (investigar)
+html-loader  (investigar)
+html-webpack-plugin (investigar)
+
+Usar comando o atajo imr para colocar import React from 'react'

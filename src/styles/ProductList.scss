@@ -1,0 +1,21 @@
+@import 'vars';
+
+.product-list-main-container {
+	display: grid;
+	margin: 0 0 0 3em;
+}
+
+.product-list {
+	display: grid;
+	grid-template-columns: repeat(3, 300px);
+	grid-auto-rows: 350px;
+	margin: 3em 0 0 0;
+	
+
+}
+
+@media (max-width: 640px) {
+	.product-list-main-container {
+		grid-template-columns: repeat(auto-fill, 140px);
+	}
+}
