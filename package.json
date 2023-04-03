@@ -1,9 +1,12 @@
 {
   "name": "react-shop",
+  "homepage": "https://Naya070.github.io/Tienda-online-react",
   "version": "1.0.0",
   "description": "react shop",
   "main": "src/index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
     "build": "webpack --mode production"
@@ -35,6 +38,7 @@
     "@types/babel__preset-env": "^7.9.2",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.2",
     "sass": "^1.58.0",
