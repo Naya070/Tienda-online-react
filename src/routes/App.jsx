@@ -18,7 +18,7 @@ const App = () => {
     return (
 
         <AppContext.Provider value={initialState}>
-        <BrowserRouter basename ="/">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Layout>
             <Switch>
                 <Route exact path = "/" component = {Home} />
@@ -28,7 +28,6 @@ const App = () => {
                 <Route exact path = "/my-account-create" component = {MyAccountCreate} />
                 <Route exact path = "/my-account-edit" component = {MyAccountEdit} />
                 <Route exact path = "*" component = {NotFound} />
-            
             </Switch>
         </Layout>
     
